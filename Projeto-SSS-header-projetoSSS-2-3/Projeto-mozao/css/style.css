@@ -1,0 +1,97 @@
+/*Globais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.interface{
+    margin: auto 4%;
+    max-height: 1148px;
+}
+
+.flex{
+    display: flex;
+   
+}
+
+section{
+    background: #21B0FE;
+}
+
+/* Header*/
+
+header .interface .flex{
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+header .interface .logotipo .navegacao ul li{
+   display: inline;
+  padding: 20px;
+}
+
+header .interface .logotipo .navegacao ul{
+    list-style-type: none;
+    
+}
+
+header .interface .logotipo .nav-button button{
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+header .interface .logotipo .nav-button button p{
+    justify-content: baseline;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 15px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+/*Main */
+
+section .interface .flex .lado-esquerdo{
+    width: 600px;
+    margin-top: 60px;
+}
+
+section .interface .flex .lado-esquerdo h1{
+   color: #FED700;
+    font-size: 60px;
+}
+
+section .interface .flex .lado-esquerdo p{
+    color: white;
+    font-size: 20px;
+    margin: 20px 0
+}
+
+section .interface .flex .lado-esquerdo button{
+    background: #F9039C;
+   margin-top: 10px;
+    width: 250px;
+    border-radius: 20px;
+    border: none;   
+}
+
+section .interface .flex .lado-esquerdo button p{
+    color:#FED700 ;
+}
+
+
+
+
+
+
+
+
+
+
